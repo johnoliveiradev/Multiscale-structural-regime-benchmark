@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "r_minus": 0.72,
+    "n": 200000,
+    "burn": 2000,
+    "grid_sizes": [
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "padding_list": [
+      0.02,
+      0.05
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "null_mode": null,
+    "null_trials": 20,
+    "ok_count": 10,
+    "total_runs": 10,
+    "index_mean": 1.8150213937290036,
+    "index_std": 0.002267351536344214,
+    "index_p05": 1.811690193214833,
+    "index_p50": 1.8150218568107297,
+    "index_p95": 1.8180926910556576,
+    "r2_mean": 0.9978492366195834,
+    "thickness_proxy_mean": 0.08105656297606763
+  },
+  "notes": {
+    "what_this_proves": [
+      "Strong empirical evidence of non-empty intersection Ψ(r)=Φ+∩Φ-(r) at multiple scales",
+      "Estimated box-counting-like index via regression across eps scales, with bootstrap CI",
+      "Robustness across seeds and padding; fit quality via R²; false-positive control via null models",
+      "Optional r-sweep can show local persistence around r0 (empirical analogue of thickness persistence)"
+    ],
+    "limits": [
+      "Not a formal proof of Hausdorff dimension; box-counting estimate on finite scales",
+      "Does not establish global monotonicity or uniform bounds for all r"
+    ]
+  },
+  "runs_count": 10
+}
